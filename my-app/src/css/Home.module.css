@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+.home{
+    height: 100vh; 
+    /* vertical height */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  /* box-shadow: 10px 10px 30px #6d5a5a
+    -10px -10px -30px #604d4d;
+}  */
+.resbox{
+    width: 390px;
+    height: min-content;
+    /* The intrinsic minimum height. */
+    overflow-y: auto;
+    /* overflow-y is auto because user may type large no */
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+    padding-top: 20px;
+
+}
+
+.resbox::-webkit-scrollbar{
+    display: none;
+}
+
+
+.btns{
+    height: 530px;
+    width: 425px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; 
+    /*  we use space-eventy because buttons have proper space  */
+    align-items: center;
+    border-radius: 30px; 
+
+ }.inner{
+    background-color: red;
+    height: 640px;
+    width: 425px;
+    border-radius: 30px;
+    background-color: rgb(208, 179, 179);
+    box-shadow: 20px 20px 60px #c87070
+    -20px -20px -60px #e17f7f;
+} 
+
+.result{
+    font-size: 2rem;
+    width: 405px;
+    height: 90px;
+    scrollbar-width: none;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 30px #6d5a5a
+    -10px -10px -30px #604d4d;
+}

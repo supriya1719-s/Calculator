@@ -1,0 +1,23 @@
+.calcBtns{
+    height: 90px;
+    width: 90px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    background-color: cornsilk;
+    user-select: none;
+    box-shadow: 10px 10px 30px #c88585
+    -10px -10px -30px #533d3d;
+}
+
+.res{
+    width: 180px;
+    background-color: rgba(98, 6, 20, 0.284);
+}
+
+/* from 15 to 18 line we use this styling for C and = buttons */
+
+/* in this we give css style to the button */
+/* user-select: none; this means user cannot select the txt inside it */
